@@ -1,0 +1,33 @@
+
+.login{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    font-family: 'Dancing Script';
+    flex-direction: column;
+    align-items: center;
+    margin-left:400px;
+}
+
+#de{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+img{
+    padding-top: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.enter{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 5px;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 70px;
+}

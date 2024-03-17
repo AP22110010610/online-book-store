@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.head{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 213, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar{
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    background-color: bisque;
+    margin-left: 0px;
+    margin-top: 154px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    height: 100%;
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 154px;
+    width: 87.5%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    padding-top: 50px;
+}
+
+img{
+    padding-top: 5px;
+    width: 350px;
+    height: 350px;
+}
+
+.text1{
+    padding-top: 10px;
+    color: blue;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: 600;
+}
+.text2{
+    padding-top: 20px;
+    color: red;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: 600;
+}
